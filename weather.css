@@ -1,0 +1,72 @@
+.home {
+    /* background-image: url('./images/pexels-photo-bg1.jpeg'); */
+    background:linear-gradient(rgb(112, 184, 154),rgba(153, 81, 68, 0.808)), url('./images/field-clouds-sky-bg3.jpeg');        
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(32, 2, 2);
+    font-size: 18px;
+    margin: 0px 10px;
+    font-weight: 700;
+}
+
+.links a:hover{
+    color: blue;
+    text-decoration: underline;
+    /* text-decoration: overline; */
+}
+
+.searchCity , .location{
+    display: flex;
+    justify-content: center;
+    
+}
+.searchCity input{
+    height: 40px;
+    width: 500px;
+    outline: none;
+}
+
+.searchCity button{
+    font-size: 18px;
+    padding: 0px 20px;
+    border: none;
+    background-color: cadetblue;
+    color: azure;
+
+}
+.searchCity button:hover{
+    color: blue;
+    
+}
+.weatherInfo {
+    background-color: whitesmoke;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+   
+    
+}
+
+.weatherInfo h1{
+    font-size: 64px;
+    padding: 60px 0px;
+}
+
+#cityName{
+    font-weight: 700;
+    font-size: 20px;
+}
