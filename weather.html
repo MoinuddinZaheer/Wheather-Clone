@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="shortcut icon" href="./images/clouds_weather_icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <section class="home">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./images/cloud_weather_blue.png" alt="" height="58" width="68">
+            </div>
+            <div class="links">
+                <a href="">Home</a>
+                <a href="">About us</a>
+                <a href="">Contact us</a>
+                <a href="">sign in</a>
+            </div>
+        </div> <br><br>
+
+        <div class="search">
+            <div class="searchCity">
+                <input id="search" type="text" placeholder="Enter the city name">
+                <button onclick="getInfo()">Search</button>
+            </div>
+            <div class="location">
+                <img src="file:///C:/Users/DELL/Downloads/location.svg" width="35" alt="">
+                <p id="cityName" style="margin-top: 9px;">City Name</p>
+            </div>
+        </div>
+        <div class="weatherInfo">
+            <h1 ><span id="temp">0</span><sup>0</sup> C</h1>
+        </div>
+    </section>
+
+    <script src="weather.js"></script>
+</body>
+
+</html>
